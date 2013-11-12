@@ -3004,6 +3004,7 @@ ac_compiler_gnu=$ac_cv_c_compiler_gnu
 
 
 
+
 # If --target is not used then $target_alias is empty, but if say
 # "./configure athlon-pc-freebsd3.5" is used, then all three of
 # $build_alias, $host_alias and $target_alias are set to
@@ -15404,6 +15405,10 @@ _lt_linker_boilerplate=`cat conftest.err`
 $RM -r conftest*
 
 
+## CAVEAT EMPTOR:
+## There is no encapsulation within the following macros, do not change
+## the running order or otherwise move them around unless you know exactly
+## what you are doing...
 if test -n "$compiler"; then
 
 lt_prog_compiler_no_builtin_flag=
